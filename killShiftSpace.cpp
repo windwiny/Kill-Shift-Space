@@ -26,8 +26,6 @@ WM_HOTKEY
 
 ref  ahk win32api regedit
   https://github.com/Svtter/Kill-Shift-Space
-  https://www.autohotkey.com/board/topic/20759-how-to-detect-only-the-modifier-is-pressed-nothing-else/page-2
-  https://superuser.com/questions/109066/how-to-disable-ctrlshift-keyboard-layout-switch-for-the-same-input-language-i
 
 
 g++ killShiftSpace.cpp  -o killShiftSpace.exe  -Wl,--subsystem,windows
