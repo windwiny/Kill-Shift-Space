@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+; Note: This is for Windows 8.1 - the location of the settings/keys change with different Windows versions
+; CONTROL PANEL:
+; Control Panel->All Control Panel Items->Language->Advanced settings->Change Language Bar Hot Keys->Advanced Key Settings->Change Key Sequence...->"Not Assigned"
+; WINDOWS REGISTRY:
+; Primary Key: [HKEY_CURRENT_USER\Keyboard Layout\Toggle]
+; Optional Secondary Key (might be needed for Windows logon screen): [HKEY_USERS\.DEFAULT\Keyboard Layout\Toggle]
+; Values: "Language Hotkey" and "Layout Hotkey"
+;1 = Key Sequence enabled; use LEFT ALT+SHIFT to switch between locales.
+;2 = Key Sequence enabled; use CTRL+SHIFT to switch between locales.
+;3 = Key Sequences disabled.
+
+[HKEY_CURRENT_USER\Keyboard Layout\Toggle]
+"Language HotKey"="3"
+"Layout HotKey"="3"
+
+[HKEY_USERS\.DEFAULT\Keyboard Layout\Toggle]
+"Language HotKey"="3"
+"Layout HotKey"="3"
