@@ -4,26 +4,26 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
-; win11  wubi input Full/half space
+; win11  ime input Full/half space
 <+space::
 return
 ;
 
 
-; win11 Shift-Alt switch input keyboard layout
-<+Alt::
-return
-;
+; ; win11 Shift-Alt switch input keyboard layout
+; <+Alt::
+; return
+; ;
 
-<!Shift::
-return
-;
+; <!Shift::
+; return
+; ;
 
 ; ; win11 Ctrl-Shift switch ime
 ; <^Shift::
 ; return
 ; ;
 
-<+Ctrl::
-return
-;
+; <+Ctrl::
+; return
+; ;
