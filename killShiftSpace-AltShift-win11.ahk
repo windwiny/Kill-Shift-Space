@@ -44,11 +44,10 @@ return
 ;
 
 
-; ; win11 Shift-Alt switch input keyboard layout
+; ; win11 Shift-Alt switch input keyboard layout 中英文切换，win11高级键盘中禁用
 ; <+Alt::
 ; return
 ; ;
-
 ; <!Shift::
 ; return
 ; ;
@@ -68,8 +67,10 @@ return
 ; return
 ; ;
 
+#`::   ;; win11 ~   打开的终端
+ return
 
 
-#F1::
+#F1::   ;; win11 F1  联想浏览器
  return
 
