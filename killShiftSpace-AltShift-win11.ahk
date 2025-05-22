@@ -53,10 +53,10 @@ return
 ; return
 ; ;
 
-; win11 Ctrl-Shift switch ime 禁用切换输入法
-<^Shift::
-return
-;
+; ; win11 Ctrl-Shift switch ime 禁用切换输入法   会影响 其它快捷键 如终端里查找
+; <^Shift::
+; return
+; ;
 
 ; <+Ctrl::
 ; return
